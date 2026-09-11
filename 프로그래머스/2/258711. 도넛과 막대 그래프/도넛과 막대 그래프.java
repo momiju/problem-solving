@@ -1,7 +1,6 @@
 class Solution {
     public int[] solution(int[][] edges) {
         int[] answer = new int[4];
-        
         int[] inDegree = new int[1000001];
         int[] outDegree = new int[1000001];
         
